@@ -1,115 +1,34 @@
 {
    "name":"UFO Money Token List",
-   "timestamp":"2022-01-24T12:00:00+00:00",
    "logoURI": "https://raw.githubusercontent.com/ufomoney/ufomoney-images/main/logo512.png",
-   "version":{
-      "major":1,
-      "minor":0,
-      "patch":0
-   },
-   "keywords":[
-      "ufo",
-      "tags",
-      "curated",
-      "DeFi",
-      "list"
-   ],
-   "tags":{
-      "stablecoin":{
-         "name":"Stablecoin",
-         "description":"Assets whose value is pegged to a fiat currency"
-     },
-     "farming":{
-         "name": "Yield Farming",
-         "description": "Asset that can either be earned through a staking or usage mechanism"
-     },
-    "gov":{
-        "name": "Governance Tokens",
-        "description": "Tokens whose holders have voting rights to the corresponding protocol"
-    },
-    "dex": {
-        "name": "DEX Tokens",
-        "description": "Protocol tokens of Decentralized Exchanges"
-    },
-    "synthetic": {
-        "name": "Synthetic Assets",
-        "description": "Assets that simulate an underlying asset, like stocks, bonds, commodities, indexes, currencies or interest rates."
-    },
-    "bitcoin": {
-        "name": "Bitcoin",
-        "description": "Synthetic Bitcoin assets on Ethereum"
-    },
-    "yield": {
-        "name": "Yield Bearing Tokens",
-        "description": "Tokens that generate interest for the asset holder"
-    },
-    "aave": {
-        "name": "Aave aTokens",
-        "description": "Tokens that generate interest on the Aave Protocol"
-    },
-    "staking": {
-        "name": "Staking Tokens",
-        "description": "Tokens that can be staked in the native protocol to generate interest or other returns"
-    },
-    "compound": {
-        "name": "Compound cTokens",
-        "description": "Tokens that generate interest on the Compound Protocol"
-    },
-    "prediction": {
-        "name": "Prediction Markets",
-        "description": "Tokens for decentralized prediction markets"
-    },
-    "yearn": {
-        "name": "yEarn yTokens",
-        "description": "Tokens that generate interest on the yEarn Protocol"
-    },
-    "wrapped": {
-        "name": "Wrapped Token",
-        "description": "Tokens that represent a tokenized version of another crypto asset"
-    }
-   },
    "tokens":[
       {
          "chainId":56,
          "address":"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
          "symbol":"WBNB",
          "name":"Wrapped BNB",
-         "decimals":18,
-         "tags":[
-            "wrapped"
-         ]
+         "decimals":18
       },
       {
          "chainId":56,
          "address":"0x3b72ac46888f72dd6a6b2076ca96fcc18e75a935",
          "symbol":"UFO",
          "name":"UFO Money",
-         "decimals":18,
-         "tags":[
-            "dex",
-            "gov"
-         ]
+         "decimals":18
       },
       {
          "chainId":56,
          "address":"0xecb037cc672Fb2b53466Bbce986880149F79245B",
          "symbol":"YUFO",
          "name":"YUFO",
-         "decimals":18,
-         "tags":[
-            "dex",
-            "gov"
-         ]
+         "decimals":18
       },
       {
          "chainId":56,
          "address":"0x2E427a0EbeAf2656A23FC289b12CE48f9CC3Fb7A",
          "symbol":"SUFO",
          "name": "SUFO",
-         "decimals":0,
-         "tags":[
-            "yield"
-         ]
+         "decimals":0
       }
    ]
 }
